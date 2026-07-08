@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Cormorant Garamond';
+  --font-body: 'Outfit';
+  --font-mono: 'JetBrains Mono';
+
+  /* Light palette */
+  --bg-base:    #F6F7FB;
+  --bg-surface: #FFFFFF;
+  --bg-muted:   #EEF1F8;
+  --bg-subtle:  #E4E9F4;
+
+  /* Unified page background — warm-ivory with a faint azure-to-blush gradient */
+  --bg-page: linear-gradient(
+    160deg,
+    #FAFBFF 0%,
+    #F4F6FD 30%,
+    #F8F5FB 60%,
+    #FAF9FD 100%
+  );
+
+  --text-primary:   #0D1526;
+  --text-secondary: #3D506B;
+  --text-muted:     #7589A0;
+  --text-faint:     #A8B8CC;
+
+  --azure:      #1D4ED8;
+  --azure-mid:  #2563EB;
+  --azure-lite: #EEF3FF;
+  --jade:       #059669;
+  --jade-lite:  #ECFDF5;
+  --gold:       #B45309;
+  --border:     #DDE3EE;
+  --border-strong: #C4CEDF;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body {
+  background: var(--bg-page);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: var(--font-body), sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* Transparent section backgrounds — the body gradient shows through */
+.grid-bg {
+  background: transparent;
+}
+
+.grid-bg-white {
+  background: transparent;
+}
+
+/* Typography helpers */
+.display-text {
+  font-family: var(--font-display), serif;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.mono-label {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--azure);
+}
+
+/* Focus */
+:focus-visible {
+  outline: 2px solid var(--azure);
+  outline-offset: 3px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-muted); }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #9AAABB; }
+
+/* Selection */
+::selection {
+  background: rgba(29,78,216,0.12);
+  color: var(--text-primary);
+}
+
+/* Shimmer for hero */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, #1D4ED8 0%, #0891B2 30%, #059669 55%, #1D4ED8 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 6s linear infinite;
+}
+
+/* Soft shadow utility */
+.card-shadow {
+  box-shadow: 0 1px 3px rgba(13,21,38,0.06), 0 4px 16px rgba(13,21,38,0.05);
+}
+.card-shadow-hover {
+  box-shadow: 0 4px 12px rgba(13,21,38,0.08), 0 12px 32px rgba(13,21,38,0.07);
+}
