@@ -5,16 +5,16 @@ import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "BridgeIndia — Your Bridge to India. Built to Last.",
-    template: "%s | BridgeIndia",
+    default: "Edreach International — Your Bridge to India. Built to Last.",
+    template: "%s | Edreach International",
   },
   description:
     "India's dedicated end-to-end partnership firm for global institutions. Education consulting, training programs, R&D partnerships, and legal advisory.",
   keywords: ["India partnership", "foreign institution India", "education consulting India"],
   openGraph: {
     type: "website", locale: "en_US", url: "https://bridgeindia.com",
-    siteName: "BridgeIndia",
-    title: "BridgeIndia — Your Bridge to India. Built to Last.",
+    siteName: "Edreach International",
+    title: "Edreach International — Your Bridge to India. Built to Last.",
     description: "End-to-end partnership services for global institutions entering India.",
   },
   robots: { index: true, follow: true },

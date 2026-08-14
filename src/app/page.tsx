@@ -34,7 +34,7 @@ export default function HomePage() {
       <HeroSection />
 
       {/* Problem Section */}
-      <Section>
+      {/* <Section>
         <FadeIn>
           <SectionLabel>The Reality</SectionLabel>
           <h2 className="display-text text-4xl sm:text-5xl font-semibold text-ink-900 mt-4 mb-5 leading-tight max-w-3xl">
@@ -57,7 +57,7 @@ export default function HomePage() {
             </FadeIn>
           ))}
         </div>
-      </Section>
+      </Section> */}
 
       <ServicesOverview />
       <WhyUsSection />

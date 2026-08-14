@@ -26,8 +26,8 @@ export default function ContactPage() {
     <>
       <PageHero
         label="Contact"
-        title={<>Start a Real Conversation.<br /><em className="not-italic text-ink-300">Not a Sales Call.</em></>}
-        subtitle="Tell us about your institution and what you're trying to achieve in South Asia. We'll respond within 24 hours with honest, specific thinking — not a generic pitch."
+        title={<>Let's Build Your Growth Story Together<br /></>}
+        subtitle="Whether you're looking to enter the South Asian market, expand your recruitment footprint, or strengthen your institutional partnerships, our team is ready to help."
       />
 
       <Section className="bg-bg-base" grid>
@@ -86,9 +86,9 @@ export default function ContactPage() {
                     {loading ? "Sending..." : "Send Message — We Respond Within 24 Hours"}
                   </button>
 
-                  <p className="text-xs text-ink-100 text-center">
+                  {/* <p className="text-xs text-ink-100 text-center">
                     No sales pressure. No generic pitch deck. Just a focused conversation about your goals.
-                  </p>
+                  </p> */}
                 </form>
               )}
             </FadeIn>
@@ -98,7 +98,7 @@ export default function ContactPage() {
           <div className="lg:col-span-2 space-y-5">
             <FadeIn delay={100}>
               <div className="bg-white border border-border rounded-2xl p-7 card-shadow">
-                <p className="mono-label mb-4">Direct Email</p>
+                <p className="mono-label mb-4">Get in Touch</p>
                 <a href={`mailto:${siteConfig.email}`} className="font-display text-lg text-azure-700 hover:text-azure-600 transition-colors">
                   {siteConfig.email}
                 </a>
@@ -116,7 +116,7 @@ export default function ContactPage() {
               </div>
             </FadeIn>
 
-            <FadeIn delay={200}>
+            {/* <FadeIn delay={200}>
               <div className="bg-white border border-border rounded-2xl p-7 card-shadow">
                 <p className="mono-label mb-4">Follow Our Work</p>
                 <div className="space-y-3">
@@ -131,7 +131,7 @@ export default function ContactPage() {
                   ))}
                 </div>
               </div>
-            </FadeIn>
+            </FadeIn> */}
           </div>
 
         </div>

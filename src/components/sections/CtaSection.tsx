@@ -37,9 +37,9 @@ export function CtaSection() {
               Explore Services
             </Link>
           </div>
-          <p className="text-white/40 text-xs mt-6 italic">
+          {/* <p className="text-white/40 text-xs mt-6 italic">
             No sales pressure. No generic pitch deck. Just a direct conversation about your institution's specific goals.
-          </p>
+          </p> */}
         </FadeIn>
       </div>
     </section>

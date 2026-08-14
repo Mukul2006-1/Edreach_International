@@ -16,7 +16,8 @@ export const siteConfig = {
 export const navLinks = [
   { label: "Services", href: "/services" },
   { label: "About Us", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  { label: "Our Edge", href: "/edge" },
+  // { label: "Contact", href: "/contact" },
 ];
 
 export const services = [

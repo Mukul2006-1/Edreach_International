@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  p {
+    @apply text-lg sm:text-xl text-ink-500 leading-relaxed;
+  }
+}
+
 :root {
   --font-display: 'Cormorant Garamond';
   --font-body: 'Outfit';
