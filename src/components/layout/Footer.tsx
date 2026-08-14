@@ -5,8 +5,8 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-white">
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          <div className="md:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+          <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2.5 mb-4 group">
               <img src="/EdreachLogo_website.png" alt="Edreach International Logo" className="h-12 w-auto object-contain" />
               <span className="font-display text-xl font-semibold text-[#00206d]">{siteConfig.name}</span>
@@ -33,14 +33,14 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <p className="mono-label mb-5">Services</p>
             <ul className="space-y-3">
               {services.map(s => (
                 <li key={s.id}><Link href={`/services#${s.id}`} className="text-sm text-ink-300 hover:text-azure-700 transition-colors">{s.title}</Link></li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
