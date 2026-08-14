@@ -10,23 +10,23 @@ export const metadata: Metadata = {
   title: "Edreach International — Your Bridge to South Asia. Built to Last.",
 };
 
-const problems = [
-  {
-    icon: "⚖️",
-    title: "Regulatory Complexity",
-    quote: '"We didn\'t know which licenses we needed until it was already too late to reverse."',
-  },
-  {
-    icon: "🔗",
-    title: "Unreliable Local Networks",
-    quote: '"We worked with three consultants before finding someone who actually delivered what they promised."',
-  },
-  {
-    icon: "🧩",
-    title: "No End-to-End Ownership",
-    quote: '"Every vendor handled one piece. Nobody owned the whole outcome. We were left coordinating chaos."',
-  },
-];
+// const problems = [
+//   {
+//     icon: "⚖️",
+//     title: "Regulatory Complexity",
+//     quote: '"We didn\'t know which licenses we needed until it was already too late to reverse."',
+//   },
+//   {
+//     icon: "🔗",
+//     title: "Unreliable Local Networks",
+//     quote: '"We worked with three consultants before finding someone who actually delivered what they promised."',
+//   },
+//   {
+//     icon: "🧩",
+//     title: "No End-to-End Ownership",
+//     quote: '"Every vendor handled one piece. Nobody owned the whole outcome. We were left coordinating chaos."',
+//   },
+// ];
 
 export default function HomePage() {
   return (

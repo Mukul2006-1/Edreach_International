@@ -9,7 +9,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2.5 mb-4 group">
               <img src="/EdreachLogo_website.png" alt="Edreach International Logo" className="h-12 w-auto object-contain" />
-              <span className="font-display text-xl font-semibold text-ink-900">{siteConfig.name}</span>
+              <span className="font-display text-xl font-semibold text-[#00206d]">{siteConfig.name}</span>
             </Link>
             <p className="text-ink-300 text-sm leading-relaxed max-w-xs">{siteConfig.tagline}</p>
             <p className="text-ink-100 text-sm mt-3 max-w-xs leading-relaxed">

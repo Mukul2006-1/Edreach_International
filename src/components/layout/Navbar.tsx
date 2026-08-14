@@ -28,7 +28,7 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2.5 group">
             <img src="/EdreachLogo_website.png" alt="Edreach International Logo" className="h-10 w-auto object-contain" />
-            <span className="font-display text-xl font-semibold text-ink-900 tracking-tight">
+            <span className="font-display text-xl font-semibold text-[#00206d] tracking-tight">
               {siteConfig.name}
             </span>
           </Link>

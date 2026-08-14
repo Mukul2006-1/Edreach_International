@@ -22,93 +22,68 @@ export const navLinks = [
 
 export const services = [
   {
-    id: "education",
+    id: "student-recruitment",
     icon: "🎓",
-    title: "Education Consulting & Recruitment",
-    slug: "education-consulting",
-    tagline: "Build sustainable student pipelines from India.",
-    problem:
-      "Foreign universities struggle to recruit qualified Indian students at scale — facing fragmented agent networks, cultural barriers, and no reliable on-ground presence.",
-    what: [
-      "India market entry strategy for academic institutions",
-      "Agent network identification, vetting, and management",
-      "Student outreach and pipeline development",
-      "Compliance with UGC and AICTE cross-border education norms",
-      "On-ground representation and relationship management",
-    ],
-    benefits: [
-      "Consistent, qualified student pipeline year-on-year",
-      "Compliant recruitment operations from day one",
-      "Deep local market intelligence unavailable elsewhere",
-      "Single accountable partner — not a collection of agents",
-    ],
+    title: "International Student Recruitment",
+    description: "We connect institutions with qualified and genuine students through our extensive network of education partners, counsellors, schools, and recruitment channels. Our recruitment strategies focus on quality, compliance, and long-term success."
   },
   {
-    id: "training",
-    icon: "📚",
-    title: "Training & Capacity Building",
-    slug: "training-capacity",
-    tagline: "Deliver your programs in India with full compliance.",
-    problem:
-      "Global institutions want to deliver training and capacity building programs in India but lack the local infrastructure, partner networks, and regulatory know-how to do so effectively.",
-    what: [
-      "Training program design and curriculum localization",
-      "Certified delivery partner identification and management",
-      "Venue, logistics, and participant coordination",
-      "Impact measurement and outcome reporting",
-      "Regulatory compliance for foreign training delivery",
-    ],
-    benefits: [
-      "Programs delivered to Indian standards without losing your methodology",
-      "Measurable outcomes reported against your KPIs",
-      "Full operational management — you focus on content",
-      "Scalable model from pilot to national rollout",
-    ],
+    id: "institutional-representation",
+    icon: "🏛️",
+    title: "Institutional Representation",
+    description: "Acting as an extension of your international team, we represent your institution in South Asia, increasing brand visibility and engagement with key stakeholders, including students, agents, schools, and industry partners."
   },
   {
-    id: "rd",
-    icon: "🔬",
-    title: "Research & Development Partnerships",
-    slug: "rd-partnerships",
-    tagline: "Collaborate with India's leading research institutions.",
-    problem:
-      "R&D collaborations between foreign institutions and Indian universities frequently stall due to unclear IP frameworks, mismatched timelines, and bureaucratic complexity on both sides.",
-    what: [
-      "Research partner identification and due diligence",
-      "Collaboration agreement structuring and IP framework design",
-      "Government and regulatory approvals (DST, SERB, MoE)",
-      "Joint research program management",
-      "Progress monitoring and milestone reporting",
-    ],
-    benefits: [
-      "Partnerships that actually launch — not just LOIs that expire",
-      "IP protected and clearly allocated from the start",
-      "Regulatory approvals navigated without delays",
-      "Ongoing management so your team focuses on research, not administration",
-    ],
+    id: "market-entry",
+    icon: "🗺️",
+    title: "Market Entry & Expansion Strategy",
+    description: "For institutions seeking to establish or strengthen their presence in South Asia, we provide market research, competitor analysis, student demand insights, and customized expansion strategies to support informed decision-making."
   },
   {
-    id: "legal",
-    icon: "⚖️",
-    title: "Legal & Compliance Advisory",
-    slug: "legal-compliance",
-    tagline: "The legal architecture your India presence requires.",
-    problem:
-      "Foreign institutions frequently underestimate India's regulatory complexity — discovering licensing gaps, FCRA requirements, or entity setup errors only after they have already committed resources.",
-    what: [
-      "Foreign entity setup in India (liaison office, project office, subsidiary)",
-      "Foreign Collaboration Agreement drafting and filing",
-      "FCRA registration and compliance for international NGOs",
-      "UGC, AICTE, and MoE regulatory navigation",
-      "Ongoing compliance monitoring and advisory",
-    ],
-    benefits: [
-      "Zero compliance surprises after operations begin",
-      "Legal structure optimized for your institution type",
-      "Single advisory relationship covering all India-entry regulations",
-      "Ongoing support as Indian regulations evolve",
-    ],
+    id: "agent-network",
+    icon: "🤝",
+    title: "Agent Network Development & Management",
+    description: "We help institutions identify, onboard, train, and manage high-quality recruitment partners. Our team supports the development of strong, compliant, and productive agent networks across key markets."
   },
+  {
+    id: "stakeholder-engagement",
+    icon: "🏫",
+    title: "School & Stakeholder Engagement",
+    description: "Building meaningful relationships with schools, counsellors, and educational organizations is essential for long-term success. We facilitate partnerships that enhance brand recognition and student outreach."
+  },
+  {
+    id: "recruitment-events",
+    icon: "📅",
+    title: "Recruitment Events & Roadshows",
+    description: "Our team plans and executes a wide range of recruitment activities, including:",
+    list: [
+      "Education Fairs",
+      "School Visits",
+      "Counsellor Workshops",
+      "Agent Training Sessions",
+      "Institutional Roadshows",
+      "Student Information Sessions",
+      "Webinars & Virtual Events"
+    ]
+  },
+  {
+    id: "marketing-brand",
+    icon: "📈",
+    title: "Marketing & Brand Development",
+    description: "We support institutions in enhancing their market presence through targeted marketing campaigns, digital engagement strategies, promotional activities, and localized branding initiatives."
+  },
+  {
+    id: "market-intelligence",
+    icon: "📊",
+    title: "Market Intelligence & Research",
+    description: "Through continuous market monitoring and analysis, we provide insights into student trends, competitor activities, emerging opportunities, and recruitment performance to help institutions stay ahead in a competitive landscape."
+  },
+  {
+    id: "strategic-partnerships",
+    icon: "🔗",
+    title: "Strategic Partnership Development",
+    description: "We facilitate collaborations between institutions, schools, pathway providers, industry stakeholders, and education organizations to create mutually beneficial opportunities."
+  }
 ];
 
 export const values = [
