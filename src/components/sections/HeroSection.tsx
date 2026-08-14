@@ -18,7 +18,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center pt-20 px-6 overflow-hidden">
 
-      <Image
+      {/* <Image
         src="/earth4.webp"
         alt=""
         fill
@@ -26,7 +26,7 @@ export function HeroSection() {
         className="object-cover opacity-12"
       />
 
-      <div className="absolute inset-0 bg-white/65" />
+      <div className="absolute inset-0 bg-white/65" /> */}
 
       {/* Soft glow blobs */}
       <div className="absolute inset-0 pointer-events-none">
@@ -52,9 +52,9 @@ export function HeroSection() {
         </div> */}
 
         {/* Badge */}
-        <div style={t(0)} className="inline-flex items-center gap-2 bg-azure-100 border border-azure-500/30 rounded-full px-5 py-2 mb-8" >
-          <span className="w-1.5 h-1.5 bg-jade-600 rounded-full animate-pulse" />
-          <span className="font-medium text-xs tracking-[0.18em] text-azure-700 uppercase">
+        <div style={t(0)} className="inline-flex items-center gap-2.5 bg-[#f0f4fa] border border-[#00206d]/10 rounded-full px-5 py-2 mb-8" >
+          <span className="w-1.5 h-1.5 bg-[#00206d] rounded-full animate-pulse" />
+          <span className="mono-label">
             Now Accepting Global Partners — 2026
           </span>
         </div>
@@ -74,7 +74,7 @@ export function HeroSection() {
 
         {/* CTAs */}
         <div style={t(300)} className="flex flex-col sm:flex-row gap-4 mb-16">
-          <Link href="/contact" className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-azure-700 hover:bg-azure-600 text-white font-medium rounded-lg transition-all duration-200 hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover text-sm">
+          <Link href="/contact" className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-[#009d9b] hover:bg-[#007d7b] text-white font-medium rounded-lg transition-all duration-200 hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover text-sm">
             Book a Discovery Call <span>→</span>
           </Link>
           <Link href="/services" className="inline-flex items-center justify-center gap-2 px-7 py-3.5 border border-border text-ink-500 hover:text-ink-900 hover:border-border-strong hover:bg-bg-muted rounded-lg transition-all duration-200 text-sm">

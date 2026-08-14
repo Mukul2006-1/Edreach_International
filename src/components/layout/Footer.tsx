@@ -7,10 +7,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center gap-2.5 mb-4">
-              <div className="w-7 h-7 rounded-lg bg-azure-700 flex items-center justify-center">
-                <div className="w-2.5 h-2.5 bg-white rounded-sm rotate-45" />
-              </div>
+            <Link href="/" className="flex items-center gap-2.5 mb-4 group">
+              <img src="/EdreachLogo_website.png" alt="Edreach International Logo" className="h-12 w-auto object-contain" />
               <span className="font-display text-xl font-semibold text-ink-900">{siteConfig.name}</span>
             </Link>
             <p className="text-ink-300 text-sm leading-relaxed max-w-xs">{siteConfig.tagline}</p>

@@ -27,9 +27,7 @@ export function Navbar() {
       )}>
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-7 h-7 rounded-lg bg-azure-700 flex items-center justify-center">
-              <div className="w-2.5 h-2.5 bg-white rounded-sm rotate-45" />
-            </div>
+            <img src="/EdreachLogo_website.png" alt="Edreach International Logo" className="h-10 w-auto object-contain" />
             <span className="font-display text-xl font-semibold text-ink-900 tracking-tight">
               {siteConfig.name}
             </span>
@@ -44,8 +42,8 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/contact" className="ml-2 px-5 py-2.5 bg-azure-700 hover:bg-azure-600 text-white text-sm font-medium rounded-lg transition-all duration-200 hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover">
-              Book a Call →
+            <Link href="/contact" className="ml-2 px-5 py-2.5 bg-[#009d9b] hover:bg-[#007d7b] text-white text-sm font-medium rounded-lg transition-all duration-200 hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover">
+              Contact Us
             </Link>
           </div>
 
@@ -68,7 +66,7 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link href="/contact" className="mt-4 px-8 py-3 bg-azure-700 text-white font-medium rounded-lg text-lg shadow-btn">
+          <Link href="/contact" className="mt-4 px-8 py-3 bg-[#009d9b] hover:bg-[#007d7b] text-white font-medium rounded-lg text-lg shadow-btn">
             Book a Call →
           </Link>
         </div>

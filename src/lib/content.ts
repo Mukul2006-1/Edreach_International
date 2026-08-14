@@ -7,7 +7,7 @@ export const siteConfig = {
   tagline: "Your Bridge to South Asia. Built to Last.",
   description:
     "India's dedicated end-to-end partnership firm for global institutions. From strategy and legal setup to academic recruitment and R&D collaboration.",
-  email: "info@edreachinternational.com",
+  email: "connect@edreachinternational.com",
   location: "Unit 309, 3rd Floor, Tower-A, SAS Tower Sector 38, Gurugram – 122001 Haryana, India",
   linkedin: "https://linkedin.com/company/edreachinternational",
   twitter: "https://twitter.com/edreachinternational",

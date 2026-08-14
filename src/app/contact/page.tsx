@@ -82,7 +82,7 @@ export default function ContactPage() {
                   </div>
 
                   <button type="submit" disabled={loading}
-                    className="w-full py-3.5 bg-azure-700 hover:bg-azure-600 disabled:opacity-60 text-white font-medium rounded-lg transition-all duration-200 hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover text-sm">
+                    className="w-full py-3.5 bg-[#009d9b] hover:bg-[#007d7b] disabled:opacity-60 text-white font-medium rounded-lg transition-all duration-200 hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover text-sm">
                     {loading ? "Sending..." : "Send Message — We Respond Within 24 Hours"}
                   </button>
 

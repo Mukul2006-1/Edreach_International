@@ -36,26 +36,26 @@ export function Section({ children, className, id, grid }: { children: ReactNode
 export function SectionLabel({ children, color }: { children: ReactNode; color?: string }) {
   return (
     <p className="mono-label mb-4 flex items-center gap-2" style={color ? { color } : undefined}>
-      <span className="w-5 h-px bg-azure-700 inline-block" />
+      <span className="w-5 h-px bg-[#009d9b] inline-block" />
       {children}
     </p>
   );
 }
 
 export function Button({ href, onClick, children, variant = "primary", className, type = "button", disabled }:
-  { href?: string; onClick?: () => void; children: ReactNode; variant?: "primary"|"secondary"|"ghost"; className?: string; type?: "button"|"submit"|"reset"; disabled?: boolean }) {
+  { href?: string; onClick?: () => void; children: ReactNode; variant?: "primary" | "secondary" | "ghost"; className?: string; type?: "button" | "submit" | "reset"; disabled?: boolean }) {
   const base = "inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium text-sm transition-all duration-200";
   const variants = {
-    primary:   "bg-azure-700 hover:bg-azure-600 text-white hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover",
+    primary:   "bg-[#009d9b] hover:bg-[#007d7b] text-white hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover",
     secondary: "border border-border text-ink-500 hover:border-border-strong hover:text-ink-900 hover:bg-bg-muted",
-    ghost:     "text-azure-700 hover:text-azure-600 underline underline-offset-4",
+    ghost: "text-azure-700 hover:text-azure-600 underline underline-offset-4",
   };
   const cls = clsx(base, variants[variant], disabled && "opacity-50 pointer-events-none", className);
   if (href) return <Link href={href} className={cls}>{children}</Link>;
   return <button type={type} onClick={onClick} className={cls} disabled={disabled}>{children}</button>;
 }
 
-export function Card({ children, className, hover = true, accent }: { children: ReactNode; className?: string; hover?: boolean; accent?: "blue"|"green" }) {
+export function Card({ children, className, hover = true, accent }: { children: ReactNode; className?: string; hover?: boolean; accent?: "blue" | "green" }) {
   const accents = { blue: "hover:border-azure-500/40", green: "hover:border-jade-600/30" };
   return (
     <div className={clsx(

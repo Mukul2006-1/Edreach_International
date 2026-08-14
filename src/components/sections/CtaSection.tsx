@@ -3,7 +3,7 @@ import { FadeIn } from "@/components/ui";
 
 export function CtaSection() {
   return (
-    <section className="py-24 px-6 bg-azure-700 relative overflow-hidden">
+    <section className="py-24 px-6 bg-[#00206d] relative overflow-hidden">
       {/* Subtle pattern */}
       <div className="absolute inset-0 opacity-10"
         style={{
@@ -29,7 +29,7 @@ export function CtaSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-azure-700 font-semibold rounded-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl text-sm">
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#009d9b] font-semibold rounded-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl text-sm">
               Book a Discovery Call →
             </Link>
             <Link href="/services"

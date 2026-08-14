@@ -16,7 +16,7 @@ export function ProcessSection() {
             You always know exactly where things stand. Every milestone agreed upfront.
             No black boxes, no scope creep, no surprises.
           </p>
-          <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 bg-azure-700 hover:bg-azure-600 text-white font-medium rounded-lg transition-all duration-200 hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover text-sm">
+          <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#009d9b] hover:bg-[#007d7b] text-white font-medium rounded-lg transition-all duration-200 hover:-translate-y-0.5 shadow-btn hover:shadow-btn-hover text-sm">
             Start With a Discovery Call →
           </Link>
         </FadeIn>
