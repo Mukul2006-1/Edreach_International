@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     description: "End-to-end partnership services for global institutions entering India.",
   },
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/EdreachLogo_website_SVG.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

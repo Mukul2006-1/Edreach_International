@@ -15,7 +15,14 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    await new Promise(r => setTimeout(r, 1200));
+    
+    const subject = encodeURIComponent(`Website Inquiry: ${form.name} from ${form.organization}`);
+    const body = encodeURIComponent(
+      `Name: ${form.name}\nOrganization: ${form.organization}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
+    );
+    
+    window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${body}`;
+    
     setLoading(false);
     setSubmitted(true);
   };
