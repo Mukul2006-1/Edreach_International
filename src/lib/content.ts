@@ -3,7 +3,7 @@
 // ============================================================
 
 export const siteConfig = {
-  name: "Edreach International",
+  name: "EdReach International",
   tagline: "Your Bridge to South Asia. Built to Last.",
   description:
     "India's dedicated end-to-end partnership firm for global institutions. From strategy and legal setup to academic recruitment and R&D collaboration.",
