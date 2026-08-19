@@ -109,7 +109,6 @@ export default function ContactPage() {
                 <a href={`mailto:${siteConfig.email}`} className="font-display text-lg text-azure-700 hover:text-azure-600 transition-colors">
                   {siteConfig.email}
                 </a>
-                <p className="text-sm text-ink-500 mt-2 leading-relaxed">For time-sensitive enquiries. We aim to respond within 24 hours.</p>
               </div>
             </FadeIn>
 
@@ -117,9 +116,6 @@ export default function ContactPage() {
               <div className="bg-white border border-border rounded-2xl p-7 card-shadow">
                 <p className="mono-label mb-4">Location</p>
                 <p className="font-display text-lg text-ink-900">{siteConfig.location}</p>
-                <p className="text-sm text-ink-500 mt-2 leading-relaxed">
-                  We serve institutions globally and conduct most initial conversations via video call for your convenience.
-                </p>
               </div>
             </FadeIn>
 

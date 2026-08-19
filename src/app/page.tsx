@@ -7,7 +7,7 @@ import { CtaSection } from "@/components/sections/CtaSection";
 import { Section, SectionLabel, FadeIn, Card } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Edreach International — Your Bridge to South Asia. Built to Last.",
+  title: "Edreach International",
 };
 
 // const problems = [

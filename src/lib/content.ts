@@ -4,7 +4,7 @@
 
 export const siteConfig = {
   name: "EdReach International",
-  tagline: "Your Bridge to South Asia. Built to Last.",
+  tagline: "",
   description:
     "India's dedicated end-to-end partnership firm for global institutions. From strategy and legal setup to academic recruitment and R&D collaboration.",
   email: "connect@edreachinternational.com",
@@ -20,7 +20,15 @@ export const navLinks = [
   // { label: "Contact", href: "/contact" },
 ];
 
-export const services = [
+type Service = {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+  list?: string[];
+};
+
+export const services: Service[] = [
   {
     id: "student-recruitment",
     icon: "🎓",
@@ -46,44 +54,50 @@ export const services = [
     description: "We help institutions identify, onboard, train, and manage high-quality recruitment partners. Our team supports the development of strong, compliant, and productive agent networks across key markets."
   },
   {
-    id: "stakeholder-engagement",
+    id: "admissions-support",
     icon: "🏫",
-    title: "School & Stakeholder Engagement",
-    description: "Building meaningful relationships with schools, counsellors, and educational organizations is essential for long-term success. We facilitate partnerships that enhance brand recognition and student outreach."
-  },
-  {
-    id: "recruitment-events",
-    icon: "📅",
-    title: "Recruitment Events & Roadshows",
-    description: "Our team plans and executes a wide range of recruitment activities, including:",
-    list: [
-      "Education Fairs",
-      "School Visits",
-      "Counsellor Workshops",
-      "Agent Training Sessions",
-      "Institutional Roadshows",
-      "Student Information Sessions",
-      "Webinars & Virtual Events"
-    ]
-  },
-  {
-    id: "marketing-brand",
-    icon: "📈",
-    title: "Marketing & Brand Development",
-    description: "We support institutions in enhancing their market presence through targeted marketing campaigns, digital engagement strategies, promotional activities, and localized branding initiatives."
-  },
-  {
-    id: "market-intelligence",
-    icon: "📊",
-    title: "Market Intelligence & Research",
-    description: "Through continuous market monitoring and analysis, we provide insights into student trends, competitor activities, emerging opportunities, and recruitment performance to help institutions stay ahead in a competitive landscape."
-  },
-  {
-    id: "strategic-partnerships",
-    icon: "🔗",
-    title: "Strategic Partnership Development",
-    description: "We facilitate collaborations between institutions, schools, pathway providers, industry stakeholders, and education organizations to create mutually beneficial opportunities."
+    title: "Admissions & Application Support",
+    description: "From document verification and application processing to application submission and deposit follow-ups, we provide end-to-end admissions support that keeps your recruitment process efficient, accurate and seamless."
   }
+  // {
+  //   id: "stakeholder-engagement",
+  //   icon: "🏫",
+  //   title: "School & Stakeholder Engagement",
+  //   description: "Building meaningful relationships with schools, counsellors, and educational organizations is essential for long-term success. We facilitate partnerships that enhance brand recognition and student outreach."
+  // },
+  // {
+  //   id: "recruitment-events",
+  //   icon: "📅",
+  //   title: "Recruitment Events & Roadshows",
+  //   description: "Our team plans and executes a wide range of recruitment activities, including:",
+  //   list: [
+  //     "Education Fairs",
+  //     "School Visits",
+  //     "Counsellor Workshops",
+  //     "Agent Training Sessions",
+  //     "Institutional Roadshows",
+  //     "Student Information Sessions",
+  //     "Webinars & Virtual Events"
+  //   ]
+  // },
+  // {
+  //   id: "marketing-brand",
+  //   icon: "📈",
+  //   title: "Marketing & Brand Development",
+  //   description: "We support institutions in enhancing their market presence through targeted marketing campaigns, digital engagement strategies, promotional activities, and localized branding initiatives."
+  // },
+  // {
+  //   id: "market-intelligence",
+  //   icon: "📊",
+  //   title: "Market Intelligence & Research",
+  //   description: "Through continuous market monitoring and analysis, we provide insights into student trends, competitor activities, emerging opportunities, and recruitment performance to help institutions stay ahead in a competitive landscape."
+  // },
+  // {
+  //   id: "strategic-partnerships",
+  //   icon: "🔗",
+  //   title: "Strategic Partnership Development",
+  //   description: "We facilitate collaborations between institutions, schools, pathway providers, industry stakeholders, and education organizations to create mutually beneficial opportunities."
+  // }
 ];
 
 export const values = [

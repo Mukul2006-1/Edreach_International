@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Section, SectionLabel, FadeIn, Card, PageHero } from "@/components/ui";
+import { Section, FadeIn, PageHero } from "@/components/ui";
 import { services } from "@/lib/content";
 import { CtaSection } from "@/components/sections/CtaSection";
 
@@ -45,32 +45,6 @@ export default function ServicesPage() {
             </FadeIn>
           ))}
         </div>
-      </Section>
-
-      {/* Integration callout */}
-      <Section className="bg-white" grid>
-        <FadeIn>
-          <div className="max-w-4xl mx-auto text-center">
-            <SectionLabel>Our Integration Model</SectionLabel>
-            <h2 className="display-text text-3xl sm:text-4xl font-semibold text-ink-900 mt-4 mb-6">
-              Services That Work Together,<br />
-              <em className="not-italic text-ink-300">Not in Isolation.</em>
-            </h2>
-            <p className="text-ink-500 leading-relaxed mb-10 max-w-3xl mx-auto">
-              Most institutions don't need one service — they need multiple services coordinated seamlessly.
-              A university entering India needs legal setup, student recruitment, and potentially training delivery
-              — all aligned to the same timeline and strategy. That's exactly what one accountable partner provides.
-            </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-10">
-              {services.map((s) => (
-                <div key={s.id} className="p-5 bg-bg-muted border border-border rounded-xl text-center hover:border-[#009d9b]/30 hover:bg-[#f0f4fa] transition-all">
-                  <div className="text-2xl mb-2">{s.icon}</div>
-                  <p className="text-xs text-ink-500 leading-snug">{s.title}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </FadeIn>
       </Section>
 
       <CtaSection />

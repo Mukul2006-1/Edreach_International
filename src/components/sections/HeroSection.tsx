@@ -52,12 +52,12 @@ export function HeroSection() {
         </div> */}
 
         {/* Badge */}
-        <div style={t(0)} className="inline-flex items-center gap-2.5 bg-[#f0f4fa] border border-[#00206d]/10 rounded-full px-5 py-2 mb-8" >
+        {/* <div style={t(0)} className="inline-flex items-center gap-2.5 bg-[#f0f4fa] border border-[#00206d]/10 rounded-full px-5 py-2 mb-8" >
           <span className="w-1.5 h-1.5 bg-[#00206d] rounded-full animate-pulse" />
           <span className="mono-label">
             Now Accepting Global Partners — 2026
           </span>
-        </div>
+        </div> */}
 
         {/* Headline */}
         <h1 style={t(100)} className="display-text text-5xl sm:text-6xl lg:text-7xl font-bold text-ink-900 leading-[1.05] mb-6 max-w-4xl">
@@ -68,7 +68,7 @@ export function HeroSection() {
 
         {/* Sub */}
         <p style={t(200)} className="text-lg sm:text-xl text-ink-500 leading-relaxed mb-10 max-w-2xl">
-          From partnership strategy and legal setup to academic recruitment and R&D collaboration —
+          From partnership strategy to academic recruitment and R&D collaboration —
           we handle every step, so your institution focuses entirely on its mission.
         </p>
 

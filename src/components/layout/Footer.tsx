@@ -33,22 +33,16 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* <div>
-            <p className="mono-label mb-5">Services</p>
-            <ul className="space-y-3">
-              {services.map(s => (
-                <li key={s.id}><Link href={`/services#${s.id}`} className="text-sm text-ink-300 hover:text-azure-700 transition-colors">{s.title}</Link></li>
-              ))}
-            </ul>
-          </div> */}
+          <div>
+            <p className="mono-label mb-5">Contact</p>
+            <div className="flex flex-col gap-6 text-sm text-ink-300">
+              <a href={`mailto:${siteConfig.email}`} className="hover:text-azure-700 transition-colors">{siteConfig.email}</a>
+              <span className="leading-relaxed">{siteConfig.location}</span>
+            </div>
+          </div>
         </div>
 
-        <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm text-ink-100">
-            <a href={`mailto:${siteConfig.email}`} className="hover:text-azure-700 transition-colors">{siteConfig.email}</a>
-            <br />
-            <span>{siteConfig.location}</span>
-          </div>
+        <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-center items-center">
           <p className="text-sm text-ink-100">© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
         </div>
       </div>
