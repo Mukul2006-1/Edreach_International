@@ -18,16 +18,6 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center pt-20 px-6 overflow-hidden">
 
-      {/* <Image
-        src="/earth4.webp"
-        alt=""
-        fill
-        priority
-        className="object-cover opacity-12"
-      />
-
-      <div className="absolute inset-0 bg-white/65" /> */}
-
       {/* Soft glow blobs */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 right-1/4 w-[600px] h-[400px] bg-azure-100 rounded-full blur-[100px] opacity-70" />
@@ -45,11 +35,6 @@ export function HeroSection() {
       </div> */}
 
       <div className="max-w-7xl mx-auto relative z-10 py-20 w-full">
-        {/* Badge
-        <div style={t(0)} className="inline-flex items-center gap-2 bg-azure-100 border border-azure-500/30 rounded-full px-4 py-1.5 mb-8">
-          <span className="w-1.5 h-1.5 bg-jade-600 rounded-full animate-pulse" />
-          <span className="font-mono text-[11px] tracking-widest text-azure-700 uppercase">Now Accepting Global Partners — 2026</span>
-        </div> */}
 
         {/* Badge */}
         {/* <div style={t(0)} className="inline-flex items-center gap-2.5 bg-[#f0f4fa] border border-[#00206d]/10 rounded-full px-5 py-2 mb-8" >
