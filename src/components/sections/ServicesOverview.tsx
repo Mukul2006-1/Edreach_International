@@ -13,9 +13,9 @@ export function ServicesOverview() {
             Many Integrated Services.<br />
             <em className="not-italic text-ink-300">One Accountable Team.</em>
           </h2>
-          <p className="text-ink-500 max-w-sm leading-relaxed text-sm lg:text-base">
+          {/* <p className="text-ink-500 max-w-sm leading-relaxed text-sm lg:text-base">
             We don't hand you off between departments. Every service is connected, managed by one dedicated partner, accountable for the full outcome.
-          </p>
+          </p> */}
         </div>
       </FadeIn>
       <div className="flex flex-wrap justify-center gap-8">
