@@ -28,14 +28,14 @@ export function Footer() {
             <div className="min-w-[120px]">
               <p className="mono-label mb-5">Company</p>
               <ul className="space-y-3">
-                {[...navLinks, { label: "Contact", href: "/contact" }].map(link => (
+                {[...navLinks, { label: "Contact Us", href: "/contact" }].map(link => (
                   <li key={link.href}><Link href={link.href} className="text-sm text-ink-300 hover:text-azure-700 transition-colors">{link.label}</Link></li>
                 ))}
               </ul>
             </div>
 
             <div className="max-w-[260px]">
-              <p className="mono-label mb-5">Contact</p>
+              <p className="mono-label mb-5">Contact Us</p>
               <div className="flex flex-col gap-6 text-sm text-ink-300">
                 <a href={`mailto:${siteConfig.email}`} className="hover:text-azure-700 transition-colors">{siteConfig.email}</a>
                 <span className="leading-relaxed">{siteConfig.location}</span>
