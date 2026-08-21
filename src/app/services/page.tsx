@@ -18,12 +18,12 @@ export default function ServicesPage() {
       />
 
       <Section className="bg-bg-base" grid>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {services.map((service, i) => (
-            <FadeIn key={service.id} delay={i * 80}>
+            <FadeIn key={service.id} delay={i * 80} className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.333rem)]">
               <div
                 id={service.id}
-                className="bg-white border border-border rounded-2xl p-8 card-shadow hover:card-shadow-hover hover:border-[#009d9b]/30 transition-all duration-300 scroll-mt-24 h-full flex flex-col"
+                className="bg-white border border-border rounded-2xl p-8 card-shadow hover:card-shadow-hover hover:border-[#009d9b]/30 transition-all duration-300 scroll-mt-24 h-full flex flex-col items-center text-center"
               >
                 <div className="w-14 h-14 rounded-2xl bg-[#f0f4fa] border border-[#00206d]/10 flex items-center justify-center text-2xl mb-6">
                   {service.icon}

@@ -29,7 +29,7 @@ export default function EdgePage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {edges.map((edge, i) => (
                         <FadeIn key={edge.title} delay={i * 80}>
-                            <Card className="h-full border-border hover:border-azure-500/30 transition-colors">
+                            <Card className="h-full border-border hover:border-azure-500/30 transition-all duration-500 ease-out flex flex-col items-center text-center">
                                 <div className="w-14 h-14 rounded-2xl bg-[#f0f4fa] border border-[#00206d]/10 flex items-center justify-center text-2xl mb-6">
                                     {edge.icon}
                                 </div>

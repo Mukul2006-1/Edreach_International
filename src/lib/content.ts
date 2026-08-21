@@ -162,34 +162,10 @@ export const processSteps = [
 ];
 
 export const whyUs = [
-  {
-    title: "End-to-End Ownership",
-    description:
-      "One partner accountable for the full outcome. You don't manage vendors or coordinate between specialists.",
-  },
-  {
-    title: "Institutional Fluency",
-    description:
-      "We understand academic governance, research ethics, and corporate compliance — the way institutions actually work.",
-  },
-  {
-    title: "Legally Grounded",
-    description:
-      "Legal architecture is built into every engagement from day one — not added as an afterthought when problems appear.",
-  },
-  {
-    title: "Senior-Led Delivery",
-    description:
-      "Your work stays with our core team. We don't pass your partnership to subcontractors or junior staff.",
-  },
-  {
-    title: "Transparent Progress",
-    description:
-      "Structured reporting, milestone tracking, and direct access. You always know exactly where things stand.",
-  },
-  {
-    title: "Long-Term Thinking",
-    description:
-      "We build partnerships designed to compound in value over years — not optimize for a quick engagement fee.",
-  },
+  { icon: "🌍", title: "Deep Regional Expertise", description: "Our team possesses extensive knowledge of student trends, recruitment channels, institutional positioning, and market dynamics across India and South Asia." },
+  { icon: "🤝", title: "Strong Partner Network", description: "We have developed relationships with schools, education consultants, counsellors, training providers, and industry stakeholders, enabling institutions to connect with high-quality recruitment channels." },
+  { icon: "🎯", title: "Tailored Market Strategies", description: "Every institution is unique. We create customized recruitment and business development plans based on your objectives, target audience, budget, and timelines." },
+  { icon: "🏛️", title: "Dedicated Institutional Support", description: "We provide personalized account management, ensuring your institution receives focused attention and strategic guidance throughout the partnership." },
+  { icon: "💼", title: "End-to-End Representation", description: "From market research and partner development to recruitment events and stakeholder engagement, we support institutions at every stage of their international growth journey." },
+  { icon: "🌱", title: "Long-Term Partnership Focus", description: "We believe in building sustainable growth rather than short-term results. Our objective is to create long-lasting partnerships that deliver value year after year." }
 ];
