@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "India's dedicated end-to-end partnership firm for global institutions. Education consulting, training programs, R&D partnerships, and legal advisory.",
   keywords: ["India partnership", "foreign institution India", "education consulting India"],
   openGraph: {
-    type: "website", locale: "en_US", url: "https://bridgeindia.com",
+    type: "website", locale: "en_US", url: "https://edreachinternational.com",
     siteName: "Edreach International",
     title: "Edreach International — Your Bridge to India. Built to Last.",
     description: "End-to-end partnership services for global institutions entering India.",
