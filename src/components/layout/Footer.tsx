@@ -44,8 +44,11 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-center items-center">
-          <p className="text-sm text-ink-100">© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
+        <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-sm text-ink-300">© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
+          <div className="mt-4 md:mt-0 flex gap-6">
+            <Link href="/privacy-policy" className="text-sm text-ink-300 hover:text-azure-700 transition-colors">Privacy Policy</Link>
+          </div>
         </div>
       </div>
     </footer>
